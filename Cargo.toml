@@ -1,0 +1,12 @@
+[package]
+name = "rust-finding-bigfoot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.2.2"
+redis = "0.23.0"
+serde = { version = "1.0.175", features = ["derive"] }
+serde_json = "1.0.103"
